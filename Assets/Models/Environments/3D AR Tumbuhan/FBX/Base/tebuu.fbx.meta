@@ -3,7 +3,22 @@ guid: 07fd44a2bd7a5ea4493ccf85f641115c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10454_Sugarcane_Field_v1.002
+    second: {fileID: 2100000, guid: 35b8e225df3c3d44296f6c2279a5873d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bofy
+    second: {fileID: 2100000, guid: 1d9b0d035eee4614b972e2965dd0c9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: root.001
+    second: {fileID: 2100000, guid: f7517b6ac057b5e40b678a9e9134fdd9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

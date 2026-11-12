@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c031703da0b9643974d25fbfb390d9, type: 3}
+  m_Name: QuizJagung
+  m_EditorClassIdentifier: 
+  questions:
+  - question: 1. Jagung tumbuh pada bagian .....
+    answers:
+    - A. Akar
+    - B. Daun
+    - C. Tongkol
+    - D. Bunga
+    correctAnswerIndex: 2
+  - question: 2. Bagian tanaman jagung yang dimakan adalah .....
+    answers:
+    - A. Biji
+    - B. Akar
+    - C. Batang
+    - D. Daun
+    correctAnswerIndex: 0
+  - question: 3. Jagung termasuk tanaman .....
+    answers:
+    - A. Perkebunan
+    - B. Pangan
+    - C. Hias
+    - D. Obat
+    correctAnswerIndex: 1
+  - question: 4. Jagung yang siap dipanen biasanya memiliki biji yang ....
+    answers:
+    - A. Keras dan penuh
+    - B. Kosong
+    - C. Berwarna hitam seluruhnya
+    - D. Berlubang
+    correctAnswerIndex: 0
+  - question: 5. Rambut jagung terdapat pada bagian ....
+    answers:
+    - A. Ujung tongkol
+    - B. Akar
+    - C. Batang bawah
+    - D. Daun tua
+    correctAnswerIndex: 0

@@ -3,7 +3,22 @@ guid: f86a1f53b85f7824ba2a6bc482d1427a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maize_2_albedo
+    second: {fileID: 2800000, guid: 8e2adcc83bd14c94fba2eaaa8ce3a172, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maize_albedo
+    second: {fileID: 2800000, guid: a595035c53a5b1646b63e806eedecabd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maize_alpha_albedo
+    second: {fileID: 2800000, guid: ee343763735218a4eb22c607146fc021, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

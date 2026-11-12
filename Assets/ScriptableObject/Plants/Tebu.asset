@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fa088c595ca6241a698a97eb508f74, type: 3}
+  m_Name: Tebu
+  m_EditorClassIdentifier: 
+  plantName: Tebu
+  infoPages:
+  - description: Tebu merupakan tanaman perkebunan yang memiliki batang tinggi dan
+      beruas-ruas. Tanaman ini dikenal sebagai bahan utama dalam pembuatan gula yang
+      sering digunakan dalam kehidupan sehari-hari.
+  - description: Bagian tanaman tebu yang dimanfaatkan adalah batangnya. Batang tebu
+      mengandung banyak air manis yang menjadi bahan baku pembuatan gula. Setelah
+      dipanen, batang tebu biasanya diolah di pabrik untuk menghasilkan gula pasir.
+  - description: Tebu tumbuh dengan baik di daerah yang memiliki cukup sinar matahari
+      dan kondisi tanah yang sesuai. Oleh karena itu, tanaman tebu banyak ditemukan
+      di daerah tropis seperti Indonesia.
+  - description: Karena menghasilkan gula, tebu termasuk salah satu tanaman yang
+      memiliki peranan penting dalam industri pangan dan kebutuhan rumah tangga.
+  seed: {fileID: 8104287437880677684, guid: 46658996fb7a3694fa369d8ed8d0a111, type: 3}
+  maturePlant: {fileID: 7942431121675136854, guid: 9073af9f79f3cc74db9929a9fdadb525, type: 3}
+  quizData: {fileID: 11400000, guid: db7d80b6382567a42b2c0f8f2aa2ca9c, type: 2}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c031703da0b9643974d25fbfb390d9, type: 3}
+  m_Name: QuizTebu
+  m_EditorClassIdentifier: 
+  questions:
+  - question: 1. Tebu merupakan bahan utama pembuatan .....
+    answers:
+    - A. Garam
+    - B. Gula
+    - C. Minyak
+    - D. Tepung
+    correctAnswerIndex: 1
+  - question: 2. Bagian tanaman tebu yang dimanfaatkan untuk membuat gula adalah
+      ....
+    answers:
+    - A. Batang
+    - B. Daun
+    - C. Bunga
+    - D. Akar
+    correctAnswerIndex: 0
+  - question: 3. Tebu biasanya tumbuh di daerah yang .....
+    answers:
+    - A. Kering dan cukup sinar matahari
+    - B. Bersalju
+    - C. Dalam air
+    - D. Gelap
+    correctAnswerIndex: 0
+  - question: 4. Berikut yang termasuk tanaman penghasil gula adalah ....
+    answers:
+    - A. Padi
+    - B. Jagung
+    - C. Tebu
+    - D. Singkong
+    correctAnswerIndex: 2
+  - question: 5. Tebu memiliki batang yang mengandung banyak .....
+    answers:
+    - A. Garam
+    - B. Tepung
+    - C. Minyak
+    - D. Air manis
+    correctAnswerIndex: 3

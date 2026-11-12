@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fa088c595ca6241a698a97eb508f74, type: 3}
+  m_Name: Singkong
+  m_EditorClassIdentifier: 
+  plantName: Singkong
+  infoPages:
+  - description: Singkong merupakan tanaman yang dikenal juga dengan nama ubi kayu.
+      Tanaman ini banyak dibudidayakan karena mudah tumbuh di berbagai jenis tanah
+      dan memiliki nilai ekonomi yang cukup tinggi.
+  - description: Bagian utama yang dimanfaatkan dari tanaman singkong adalah umbi
+      akar, yaitu bagian akar yang membesar dan menyimpan cadangan makanan. Umbi
+      singkong mengandung karbohidrat yang dapat digunakan sebagai sumber energi
+      bagi tubuh manusia.
+  - description: Selain umbinya, daun singkong juga dapat dimanfaatkan sebagai sayuran
+      yang kaya akan nutrisi. Singkong dapat diolah menjadi berbagai jenis makanan,
+      salah satunya adalah tape singkong, yang dibuat melalui proses fermentasi.
+  - description: Karena manfaatnya yang beragam, singkong menjadi salah satu tanaman
+      pangan yang banyak dikonsumsi oleh masyarakat Indonesia.
+  seed: {fileID: 7786419970968869405, guid: ced9d8dd6cf051c46be11495c74451fc, type: 3}
+  maturePlant: {fileID: 9192884825680969231, guid: 0302db407eff89c4ebd4fe8b178385ef, type: 3}
+  quizData: {fileID: 11400000, guid: efe84a010a479704eb3db2eff25698eb, type: 2}

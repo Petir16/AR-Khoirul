@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fa088c595ca6241a698a97eb508f74, type: 3}
+  m_Name: Padi
+  m_EditorClassIdentifier: 
+  plantName: Padi
+  infoPages:
+  - description: Padi merupakan salah satu tanaman pangan yang sangat penting bagi
+      masyarakat Indonesia. Tanaman ini menghasilkan beras, yang kemudian diolah
+      menjadi nasi sebagai makanan pokok sebagian besar penduduk Indonesia. Padi
+      umumnya ditanam di sawah yang memiliki ketersediaan air yang cukup untuk mendukung
+      pertumbuhannya.
+  - description: Tanaman padi terdiri dari beberapa bagian, yaitu akar, batang, daun,
+      bunga, dan biji. Akar berfungsi menyerap air dan zat hara dari dalam tanah
+      untuk mendukung pertumbuhan tanaman. Daun padi berwarna hijau dan berfungsi
+      sebagai tempat berlangsungnya proses fotosintesis, yaitu proses pembuatan makanan
+      bagi tumbuhan dengan bantuan sinar matahari.
+  - description: Bagian yang dimanfaatkan sebagai bahan makanan adalah biji padi.
+      Ketika padi sudah siap dipanen, warna bulir padi akan berubah menjadi kuning
+      keemasan. Setelah dipanen dan diolah, biji padi menghasilkan beras yang dapat
+      dikonsumsi sebagai sumber karbohidrat.
+  seed: {fileID: 6072210796216616416, guid: 64f9bca1f7a708d4080f4379180420fa, type: 3}
+  maturePlant: {fileID: 4488611616790000364, guid: 3d15a92d90602cc459a3626c1d54eb56, type: 3}
+  quizData: {fileID: 11400000, guid: 31af59aae8b95ac40a4fffdb037ed5bf, type: 2}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c031703da0b9643974d25fbfb390d9, type: 3}
+  m_Name: QuizSingkong
+  m_EditorClassIdentifier: 
+  questions:
+  - question: 1. Bagian singkong yang dimanfaatkan sebagai makanan adalah ....
+    answers:
+    - A. Daun
+    - B. Bunga
+    - C. Akar umbi
+    - D. Batang
+    correctAnswerIndex: 2
+  - question: 2. Daun singkong juga dapat dimanfaatkan sebagai ....
+    answers:
+    - A. Mainan
+    - B. Sayuran
+    - C. Cat
+    - D. Ban
+    correctAnswerIndex: 1
+  - question: 3. Singkong dikenal juga dengan nama .....
+    answers:
+    - A. Ubi kayu
+    - B. Ubi jalar
+    - C. Kentang
+    - D. Talas
+    correctAnswerIndex: 0
+  - question: 4. Bagian singkong yang sering dimakan adalah .....
+    answers:
+    - A. Umbi akar
+    - B. Bunga
+    - C. Batang
+    - D. Kulit
+    correctAnswerIndex: 0
+  - question: 5. Salah satu makanan yang dapat dibuat dari singkong adalah ....
+    answers:
+    - A. Tape
+    - B. Roti tawar
+    - C. Mie instan
+    - D. Keju
+    correctAnswerIndex: 0

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c031703da0b9643974d25fbfb390d9, type: 3}
+  m_Name: QuizPadi
+  m_EditorClassIdentifier: 
+  questions:
+  - question: 1. Padi merupakan tanaman yang menghasilkan ....
+    answers:
+    - A. Kapas
+    - B. Beras
+    - C. Kayu
+    - D. Buah
+    correctAnswerIndex: 0
+  - question: 2. Bagian tanaman padi yang dimanfaatkan sebagai bahan makanan adalah
+      ....
+    answers:
+    - A. Akar
+    - B. Biji
+    - C. Biji
+    - D. Daun
+    correctAnswerIndex: 2
+  - question: 3. Warna padi yang sudah siap dipanen biasanya ....
+    answers:
+    - A. Merah
+    - B. Kuning Keemasan
+    - C. Biru
+    - D. Ungu
+    correctAnswerIndex: 1
+  - question: 4. Bagian tanaman padi yang berfungsi menyerap air dan zat hara adalah
+      ....
+    answers:
+    - A. Daun
+    - B. Batang
+    - C. Bunga
+    - D. Akar
+    correctAnswerIndex: 3
+  - question: 5. Padi membutuhkan sinar matahari untuk membantu proses ....
+    answers:
+    - A. Bermain
+    - B. Fotosistesis
+    - C. Panen
+    - D. Penggilingan
+    correctAnswerIndex: 1

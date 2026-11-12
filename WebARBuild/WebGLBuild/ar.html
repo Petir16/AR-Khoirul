@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+
+<style>
+body{
+    margin:0;
+    overflow:hidden;
+}
+</style>
+
+</head>
+
+<body>
+
+<a-scene
+    mindar-image="
+        imageTargetSrc: targets.mind;
+        autoStart: true;
+        uiScanning: true;
+        uiLoading: true;
+    "
+    color-space="sRGB"
+    embedded
+    device-orientation-permission-ui="enabled">
+
+    <!-- Marker 0 = Jagung -->
+    <a-entity
+        id="target0"
+        mindar-image-target="targetIndex: 0">
+    </a-entity>
+
+    <!-- Marker 1 = Padi -->
+    <a-entity
+        id="target1"
+        mindar-image-target="targetIndex: 1">
+    </a-entity>
+
+    <!-- Marker 2 = Tebu -->
+    <a-entity
+        id="target2"
+        mindar-image-target="targetIndex: 2">
+    </a-entity>
+
+    <!-- Marker 3 = Singkong -->
+    <a-entity
+        id="target3"
+        mindar-image-target="targetIndex: 3">
+    </a-entity>
+
+    <a-camera
+        position="0 0 0"
+        look-controls="false">
+    </a-camera>
+
+</a-scene>
+
+<script>
+
+window.addEventListener(
+    "DOMContentLoaded",
+    () =>
+{
+    const target0 =
+        document.querySelector("#target0");
+
+    const target1 =
+        document.querySelector("#target1");
+
+    const target2 =
+        document.querySelector("#target2");
+
+    const target3 =
+        document.querySelector("#target3");
+
+    // =========================
+    // JAGUNG
+    // =========================
+
+    target0.addEventListener(
+        "targetFound",
+        () =>
+    {
+        console.log("JAGUNG FOUND");
+
+        if(window.unityInstance)
+        {
+            window.unityInstance.SendMessage(
+                "MindARBridge",
+                "OnMarkerFound",
+                "Jagung"
+            );
+        }
+        else
+        {
+            console.log("UNITY NOT FOUND");
+        }
+    });
+
+    target0.addEventListener(
+        "targetLost",
+        () =>
+    {
+        console.log("JAGUNG LOST");
+    });
+
+    // =========================
+    // PADI
+    // =========================
+
+    target1.addEventListener(
+        "targetFound",
+        () =>
+    {
+        console.log("PADI FOUND");
+
+        if(window.unityInstance)
+        {
+            window.unityInstance.SendMessage(
+                "MindARBridge",
+                "OnMarkerFound",
+                "Padi"
+            );
+        }
+    });
+
+    target1.addEventListener(
+        "targetLost",
+        () =>
+    {
+        console.log("PADI LOST");
+    });
+
+    // =========================
+    // SINGKONG
+    // =========================
+
+    target2.addEventListener(
+        "targetFound",
+        () =>
+    {
+        console.log("TEBU FOUND");
+
+        if(window.unityInstance)
+        {
+            window.unityInstance.SendMessage(
+                "MindARBridge",
+                "OnMarkerFound",
+                "Tebu"
+            );
+        }
+    });
+
+    target2.addEventListener(
+        "targetLost",
+        () =>
+    {
+        console.log("TEBU LOST");
+    });
+
+    // =========================
+    // TEBU
+    // =========================
+
+    target3.addEventListener(
+        "targetFound",
+        () =>
+    {
+        console.log("SINGKONG FOUND");
+
+        if(window.unityInstance)
+        {
+            window.unityInstance.SendMessage(
+                "MindARBridge",
+                "OnMarkerFound",
+                "Singkong"
+            );
+        }
+    });
+
+    target3.addEventListener(
+        "targetLost",
+        () =>
+    {
+        console.log("SINGKONG LOST");
+    });
+});
+
+</script>
+
+</body>
+</html>
